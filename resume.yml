@@ -1,0 +1,150 @@
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+    skills: False 
+
+    # Profile information
+    name: Jonathan Young 
+    tagline: Creative and Adaptable Junior Full Stack Developer
+    avatar: # Profile(100x100).jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: jyoung0696@gmail.com
+    phone: 626 626 0656
+    timezone: Pacific Time
+    citizenship: US citizen
+    website: iterating.github.io/cv-tech #do not add http://
+    linkedin: 
+    github: 
+    gitlab:
+    bitbucket:
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    # pdf: 
+
+    interests:
+      title: 
+      info:
+        - item: 
+          link: 
+        - item: 
+          link:
+        - item: 
+          link:
+
+career-profile:
+    title: Why me?
+    summary: |
+      I am a adaptable and innovative junior developer with a blend of technical expertise, creative problem-solving skills, and growth mindset. My proactive approach, foundation in technical and soft skills, and ability to adapt to emerging technologies enable me to tackle complex challenges effectively. I'm committed to continuous learning and fostering a collaborative environment that drives impactful solutions.
+education:
+    title: Education
+    info:
+      - degree: Per Scholas
+        university: Software Engineering Track
+        time: Aug 2024 - Dec 2024
+        details: |
+          Coding bootcamp, Software Engineering specialization in object-oriented programming and full stack development
+
+      - degree: UMass Chan Medical School
+        university: M.D. Candidate
+        time: 2015 - 2018
+        details: |
+          Winner, American College of Physicians National Abstract Competition  
+          *Publications/Conference Presentations:*  
+          Pretending to Be the Great Pretender. *ACP Impact*, October 2016.  
+          A Chemokine Protective Shield for Islet Transplantation. *Digestive Disease Interventions*, Boston, MA.
+
+      - degree: Tufts University
+        university: B.Sc., Biology GPA：3.7
+        time: 2007 - 2010
+        details: |
+          Magna cum laude with Thesis Honors in Biology and Chemistry  
+          *Publication:*  
+          Direct O-glycosidation of resin bound thioglycosides. *Organic and Bimolecular Chemistry* DOI: 10.1039/c2ob06883d
+
+      - degree: Choate Rosemary Hall
+        details: |
+          American Invitational Mathematics Examination (AIME) Qualifications  
+            Acknowledged for problem-solving and mathematical proficiency, demonstrating capability in achieving high-level problem-solving outcomes
+
+experiences:
+    title: Experiences
+    info:
+      - role: Junior Software Developer Volunteer
+        time: 2024 - Present
+        company: LA Film Lab, Los Angeles CA
+        details: |
+          - Working closely with senior developer to build customer facing and internal facing software for film lab using Angular, Node.JS, and Firebase.
+          - Created internal facing kiosk using HTML, CSS, and Javascript for customer order management and labeling, improving employee efficiency by 25%. 
+
+      - role: Junior Software Developer Volunteer
+        time: 2024 - Present
+        company: Greater Boston Snow Removal, Boston MA (Remote)
+        details: |
+          - Communicate and follow up with stakeholders to determine user requirements for features.
+          - Developing internal applications using HTML, CSS, and Javascript to support business operations.
+          - Worked with MongoDB and RESTful APIs to implement and optimize scalable database solutions, enhancing data retrieval efficiency and application performance.
+
+        time2: 2019 - 2020
+        role2: Operations Manager
+        details2: |
+            - Analyzed and optimized work routes to drive a 25% cost savings per route.
+            - Ensured QC and delivered improved and timelier snow removal experience for 30 contract clients. 
+            - Lead snow removal ground teams, promoting a collaborative work environment among snow removal employees. 
+
+      - role: Software Quality Assurance Analyst
+        time: 2020 - 2023
+        company: Dendron, Seattle WA (remote)
+        details: |
+          - Replicated bugs from tickets, broke down multifactorial issues into component parts, and enhanced bug report with details, clarifying ticket issues for engineering team and ensuring that bugs are identified and resolved promptly. 
+          - Communicate continuous improvements to the engineering team based on collected user feedback and research findings, enhancing product usability and functionality.
+          - Foster engagement within the user community by creating, collecting, and sharing effective workflows, thereby empowering users and optimizing use cases.
+
+      - role: Clinical User Interface Specialist
+        time: 2014 - 2015
+        company: Vecna Healthcare, Burlington MA
+        details: |
+          Translated complex clinical workflows into intuitive and seamless user interfaces for electronic medical record product.
+          - Collaborate closely with engineering teams to design and prototype user interfaces that meet the needs of healthcare providers and improve patient care outcomes.
+          - Conduct usability testing and collect feedback from clinical end-users to identify pain points and areas for improvement, resulting in iterative design enhancements.
+          - Configure, administer and maintain Ubuntu and Debian laptops used in clinical settings with Ansible, ensuring reliable and secure access to essential healthcare applications.
+          - Make significant improvements to clinical infrastructure, achieving uptime close to 100% and minimizing disruption to critical healthcare operations.
+ 
+
+      - role: Research Assistant in Vaccine Immunology
+        time: 2011 - 2013
+        company: Vaccine Immunotherapy Center, Massachusetts General Hospital, Boston MA 
+        details: |
+          Investigated use of chemokine based local immunosuppression in islet transplantation, leading to successful publication. 
+          - Present complex multidimensional quantitative data, informing direction of future development.
+          - Developed 'Cellbot', an automated cell counting program in Java and ImageJ, speeding data collection and experimental validation.
+
+          __Publication:__
+             Alginate encapsulant incorporating CXCL12 supports long term allo and xenoislet transplantation without systemic immune suppression. *American Journal of Transplantation*, 2015. [DOI 10.1111/ajt.13049](https://pubmed.ncbi.nlm.nih.gov/25693473/)
+
+      - role: Technology administrator
+        time: 2010 - 2011
+        company: Tufts University Eliot-Pearson School, Medford MA 
+        details: |
+          Managed and maintained IT infrastructure using effective diagnostic and problem solving abilities.
+          - Deploy, configure, and troubleshoot network systems, servers, and software applications to optimize performance and security.
+          - Implement IT policies and procedures to enhance system reliability and data integrity, ensuring compliance with industry standards.
+          - Collaborate with vendors to promptly resolve technical issues, ensuring minimal disruptions to operations.
+          - Document IT processes and configurations, maintaining comprehensive records.
+          - Demonstrated exceptional cross-functional collaboration, working closely with teams to assess needs, develop solutions, and deliver exceptional support.
+
+skills:
+    title: Skills
+    toolset:
+      - name: Javascript, HTML, CSS
+      - name: Node.js
+      - name: MongoDB, MySQL, Firebase/Supabase
+      - name: Virtualization- Virtualbox, VMWare, Hypervisor, Docker 
+      - name: Design- Figma, Ilustrator, Photoshop  
+      - name: Search querying and boolean logic
+      - name: Red Hat System Administration
+              Certificate 170-077-016 (currently inactive)
+
+footer: >
+    Designed by <a href="http://iterating.github.io/cv-tech" target="_blank" rel="nofollow">J Young Design</a>
