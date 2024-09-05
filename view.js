@@ -20,12 +20,14 @@ async function fetchYamlResume(url){
         let educationHTML = '';
         for (let i=0; i < data.education.info.length; i++){
           let school = data.education.info[i];
+          let detailsMd = marked.parse(school.details);
+
           educationHTML += `
             <div class="item">
               <h4 class="degree">${school.degree}</h4>
               <h5 class="meta">${school.university}</h5>
               <div class="timeeducation">${school.time}</div>
-              <div class="details">${school.details}</div>
+              <div class="details">${detailsMd}</div>
             </div>`;
           }
         document.getElementById('education-section').innerHTML = educationHTML;
@@ -33,6 +35,7 @@ async function fetchYamlResume(url){
         // Experience - Populating DOM by using array.forEach
         let experiencesHTML = '';
         data.experiences.info.forEach(experience => {
+          let detailsMd = marked.parse(experience.details);
           experiencesHTML += `
             <div class="item">
               <div class="meta">
@@ -42,7 +45,7 @@ async function fetchYamlResume(url){
                 </div>
                 <div class="company">${experience.company}</div>
               </div>
-              <div class="details"> ${experience.details}</div>
+              <div class="details"> ${detailsMd}</div>
             </div>`;
         });
         document.getElementById('experiences').innerHTML = experiencesHTML;
