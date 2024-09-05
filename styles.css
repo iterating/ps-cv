@@ -1,13 +1,5 @@
-/* Converted from SCSS based on W2 CSS lesson */
 body {
-    font-family: "Roboto", sans-serif;
-    color: #3F4650;
-    background: #f5f5f5;
-    font-size: 16px ;
-    padding: 50px auto;
-    margin: 50px auto;
-    display: flex;
-    flex-flow: row-reverse;
+padding: ;
   }
   h1, h2,h3, h4, h5, h6 {
     font-weight: 700;
@@ -19,7 +11,12 @@ body {
   
   .wrapper {
     max-width: 1000px;
-    background: #42A8C0;
+    display: flex;
+    flex-flow: row-reverse;
+    font-family: "Roboto", sans-serif;
+    color: #3F4650;
+    background: #f5f5f5;
+    font-size: 16px ;
     box-shadow: (0px 2px 4px rgba(0, 0, 0, 0.1));
   }
   
@@ -40,6 +37,7 @@ body {
       background: rgba(0, 0, 0, 0.2);
       text-align: center;
       color: #fff;
+      width: inherit;
     }
     .name {
       font-size: 32px;
@@ -114,6 +112,8 @@ body {
   
   .main-wrapper {
     background: #fff;
+    width: inherit;
+
   }
   .section-title {
     text-transform: uppercase;
@@ -177,9 +177,7 @@ body {
       .intro {
         margin-bottom: 30px;
       }
-      .item {
-        margin-bottom: 15px;
-      }
+
   
   
     .publication-title {
