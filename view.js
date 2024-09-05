@@ -54,7 +54,7 @@ async function renderResume(data){
     });
     document.getElementById('experiences').innerHTML = experiencesHTML;
 
-    // Skills - Populating DOM by using array.map and then
+    // Skills - Populating DOM by using array.map 
     let skillsHTML = data.skills.toolset.map (skill => `
         <div class="item">
           <h3 class="level-title">${skill.name}</h3>
@@ -66,7 +66,7 @@ async function renderResume(data){
 };
 
 async function renderPage(){
-      const ready = await fetchYamlResume(`https://raw.githubusercontent.com/iterating/cv-tech/e83fafe201b7be25be1374fbcd41922233e87e09/_data/data.yml`)
+      const ready = await fetchYamlResume(`https://raw.githubusercontent.com/iterating/cv-tech/main/_data/data.yml`)
       renderResume(ready);
 };
 
