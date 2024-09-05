@@ -1,0 +1,3 @@
+- [ ] markdown-it
+- [ ] array.map version
+- [ ] for loop version

@@ -1,3 +1,4 @@
+/* Converted from SCSS based on W2 CSS lesson */
 body {
     font-family: "Roboto", sans-serif;
     color: #3F4650;
@@ -19,7 +20,6 @@ body {
   .wrapper {
     max-width: 1000px;
     background: #42A8C0;
-    position: relative;
     box-shadow: (0px 2px 4px rgba(0, 0, 0, 0.1));
   }
   
@@ -32,6 +32,7 @@ body {
     color: #fff;
     position: static;
     width: inherit;
+
   }
     .profile-container {
       padding: 30px;
@@ -105,7 +106,6 @@ body {
         font-weight: 500;
         margin-bottom: 0px;
         margin-left: 5px;
-        text-align: right;
         
       }
       .item .details{
@@ -123,12 +123,11 @@ body {
     font-weight: 500;
     color: darken(#42A8C0, 15%);
     position: relative;
-    margin-top: 0;
+    margin: 10px;
     margin-bottom: 20px;}
 
     .section {
       margin-bottom: 40px;
-      
     }
   
     .experiences-section,
@@ -157,7 +156,6 @@ body {
       flex: 75%;
     }
     .time {
-      position: absolute;
       right: 0;
       top: 0;
       color: #97AAC3;

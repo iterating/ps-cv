@@ -16,9 +16,10 @@ async function fetchYamlResume(url){
         document.getElementById('name').innerText = data.sidebar.name;
         document.getElementById('tagline').innerText = data.sidebar.tagline;
 
-        // Education
+        // Education - Populating DOM by iterating over array
         let educationHTML = '';
-        data.education.info.forEach(school => {
+        for (let i=0; i < data.education.info.length; i++){
+          let school = data.education.info[i];
           educationHTML += `
             <div class="item">
               <h4 class="degree">${school.degree}</h4>
@@ -26,10 +27,10 @@ async function fetchYamlResume(url){
               <div class="timeeducation">${school.time}</div>
               <div class="details">${school.details}</div>
             </div>`;
-        });
+          }
         document.getElementById('education-section').innerHTML = educationHTML;
         
-        // Experience 
+        // Experience - Populating DOM by using array.forEach
         let experiencesHTML = '';
         data.experiences.info.forEach(experience => {
           experiencesHTML += `
@@ -46,17 +47,14 @@ async function fetchYamlResume(url){
         });
         document.getElementById('experiences').innerHTML = experiencesHTML;
 
-        // Skills
-        let skillsHTML = '';
-        data.skills.toolset.forEach(skill => {
-          skillsHTML += `
+        // Skills - PopulatingDOM by using array.map and then
+        let skillsHTML = data.skills.toolset.map (skill => `
             <div class="item">
               <h3 class="level-title">${skill.name}</h3>
               <div class="level-bar">
                 <div class="level-bar-inner" style="width: ${skill.level}%"></div>
               </div>
-            </div>`;
-        });
+            </div>`).join(''); //.join() joins the the html together without seperators ∴ no commas
         document.getElementById('skills-section').innerHTML = skillsHTML;        
       }
      
@@ -65,3 +63,4 @@ async function renderPage(){
       renderResume(ready);
     };
 renderPage(); 
+
