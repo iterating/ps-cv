@@ -28,7 +28,6 @@
 - [x] responsive styling
 
 # Further projects
-- Create CMS to practice CRUD operations
-    - Utilize database for data management
-    - Implement axios to make async promise requests
+
+- Implement axios to make async promise requests
 - embed Yaml in Markdown document to allow rendering of sections
